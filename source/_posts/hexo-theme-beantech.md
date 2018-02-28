@@ -11,7 +11,6 @@ catagories:
 - Hexo
 ---
 > 第一次认真画完一幅画？第一次写出一段C语言的HELLO WORLD?第一次建了自己的BLOG？第一次滑雪？第一次开发出一款手机应用？第一次开了自己的微信公众号？还有许许多多的第一次，我们就是要享受这种实践并得到的快乐！
-# [Live Demo](http://beantech.org)
 ---
 ![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
 
@@ -23,8 +22,8 @@ catagories:
 ---
 
 
-## 建立与普标道德一致的目标体系
----
+## 建立与普世道德一致的目标体系
+
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Place this tag where you want the button to render. -->
