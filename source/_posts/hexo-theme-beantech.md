@@ -5,14 +5,14 @@ date: 2017-03-18 10:51:24
 subtitle: "就是要好玩！"
 header-img: "Demo.png"
 tags:
-- Hexo
+- init
 - Blog
 catagories:
-- Hexo
+- init
 ---
 > 第一次认真画完一幅画？第一次写出一段C语言的HELLO WORLD?第一次建了自己的BLOG？第一次滑雪？第一次开发出一款手机应用？第一次开了自己的微信公众号？还有许许多多的第一次，我们就是要享受这种实践并得到的快乐！
 ---
-![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
+![BeanTech Desktop](1501830204545.jpg)
 
 # 终极目标是快乐
 ---
