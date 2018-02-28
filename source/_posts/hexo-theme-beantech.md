@@ -1,8 +1,8 @@
 ---
-title: "[Hexo] Theme BeanTech ok"
+title: "做最炫酷的事，向无聊说BYEBYE！"
 catalog: true
 date: 2017-03-18 10:51:24
-subtitle: "This is hexo theme Demo."
+subtitle: "就是要好玩！"
 header-img: "Demo.png"
 tags:
 - Hexo
@@ -10,118 +10,21 @@ tags:
 catagories:
 - Hexo
 ---
-> Ported Theme of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), Thank [Huxpro](https://github.com/Huxpro) for designing such a flawless theme.
-> 
-> This BeanTech theme created by [YuHsuan](http://beantech.org) modified from the original Porter [Kaijun](http://kaijun.rocks/hexo-theme-huxblog/)
-
+> 第一次认真画完一幅画？第一次写出一段C语言的HELLO WORLD?第一次建了自己的BLOG？第一次滑雪？第一次开发出一款手机应用？第一次开了自己的微信公众号？还有许许多多的第一次，我们就是要享受这种实践并得到的快乐！
 # [Live Demo](http://beantech.org)
 ---
 ![BeanTech Desktop](http://beantech.org/img/beantech-desktop.png)
 
-# Usage
+# 终极目标是快乐
 ---
-I publish the whole project for your convenience, so you can just follow the instruction down below, then you can easily customiz your own blog!
+我们需要不断发现自己的目标，以此来支撑我们达成追求快乐的终极目标，因此，这个BLOG不会局限于某一种技术，甚至不会局限于技术，一切能使我快乐的实践所得都会在此分享给所有人！
 
-Let's begin!!!
-
-## Init
+## 知识是一切正确行动的基础
 ---
-```bash
-git clone https://github.com/YenYuHsuan/hexo-theme-beantech.git ./hexo-beantech
-cd hexo-beantech
-npm install
-```
 
-## Modify
----
-Modify `_config.yml` file with your own info.
-Especially the section:
-### Deployment
-Replace to your own repo!
-```yml
-deploy:
-  type: git
-  repo: https://github.com/<yourAccount>/<repo>
-  branch: <your-branch>
-```
 
-### Sidebar settings
-Copy your avatar image to `<root>/img/` and modify the `_config.yml`:
-```yml
-sidebar: true    # whether or not using Sidebar.
-sidebar-about-description: "<your description>"
-sidebar-avatar: img/<your avatar path>
-```
-and activate your personal widget you like
-```yml
-widgets:         # here are widget you can use, you can comment out
-- featured-tags
-- short-about
-- recent-posts
-- friends-blog
-- archive
-- category
-```
-if you want to add sidebar widget, please add at `layout/_widget`.
-### Signature Setup
-Copy your signature image to `<root>/img/signature` and modify the `_config.yml`:
-```yml
-signature: true   # show signature
-signature-img: img/signature/<your-signature-ID>
-```
-### Go to top icon Setup
-My icon is using iron man, you can change to your own icon at `css/image`.
-
-### Post tag
-You can decide to show post tags or not.
-```yml
-home_posts_tag: true
-```
-![home_posts_tag-true](home_posts_tag-true.png)
-```yml
-home_posts_tag: false
-```
-![home_posts_tag-false](home_posts_tag-false.png)
-
-### Markdown render
-My markdown render engine plugin is [hexo-renderer-markdown-it](https://github.com/celsomiranda/hexo-renderer-markdown-it).
-```yml
-# Markdown-it config
-## Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki
-markdown:
-  render:
-    html: true
-    xhtmlOut: false
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: '“”‘’'
-```
-and if you want to change the header anchor 'ℬ', you can go to `layout/post.ejs` to change it.
-```javascript
-async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'hover',
-          placement: 'left',
-          icon: ℬ // this is the header anchor "unicode" icon
-        };
-```
-
-## Hexo Basics
----
-Some hexo command:
-```bash
-hexo new post "<post name>" # you can change post to another layout if you want
-hexo clean && hexo generate # generate the static file
-hexo server # run hexo in local environment
-hexo deploy # hexo will push the static files automatically into the specific branch(gh-pages) of your repo!
-```
-
-# Have fun ^_^ 
+## 建立与普标道德一致的目标体系
 ---
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Place this tag where you want the button to render. -->
-
-Please <a class="github-button" href="https://github.com/YenYuHsuan/hexo-theme-beantech" data-icon="octicon-star" aria-label="Star YenYuHsuan/hexo-theme-beantech on GitHub">Star</a> this Project if you like it! <a class="github-button" href="https://github.com/YenYuHsuan" aria-label="Follow @YenYuHsuan on GitHub">Follow</a> would also be appreciated!
-Peace!
